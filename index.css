@@ -1,0 +1,57 @@
+body {
+  background-color: #000000;
+  /* http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/253330/0f9df06cd5f4ec058a201acfe959dc8be7a5f0c0.jpg */
+  background-image: url("0f9df06cd5f4ec058a201acfe959dc8be7a5f0c0.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.eye {
+  position: absolute;
+}
+
+#eye1 {
+  left: calc(50% - 590px);
+  top: calc(50% - 15px);
+}
+
+#eye1,
+#eye2 {
+  height: 22px;
+  width: 22px;
+}
+
+#eye1.closed,
+#eye2.closed,
+#eye3.closed {
+  background-color: #ffffff;
+}
+
+#eye2 {
+  left: calc(50% - 537px);
+  top: calc(50% + 20px);
+}
+
+#eye3 {
+  height: 20px;
+  left: calc(50% + 602px);
+  top: calc(50% + 15px);
+  width: 28px;
+}
+
+#eye4 {
+  height: 18px;
+  left: calc(50% + 660px);
+  top: calc(50% + 31px);
+  width: 19px;
+}
+
+#eye4.closed {
+  background-image: url("data:image/jpg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAEgATAwERAAIRAQMRAf/EAG8AAQEBAQAAAAAAAAAAAAAAAAcIBgkBAQAAAAAAAAAAAAAAAAAAAAAQAAACBQgGCQUAAAAAAAAAAAECABESAwQhMRMUBRUGB0FhwTI0FlGBkSJCUmIzs0RUNUU2EQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCqUAtzdzNd4TinFn29h49oYRtF2LqPjwCkIUDSGKd2qaVALuTsgmG+aHlVo7xVT/q2mKqpX3ErC9fpQKjQC3N/MmEwtEOIDEWG3lpYVjigWJtIotkdCIqMB3bIr7Q6UAd5HyCrFJfTi7K3ezVL3rnoKOrqXv3hIz5UCsx3tMwzTIGVzO/j7Q4L2jfkeHm8ezWgc/dP0PF9U3wbUD//2Q==");
+}
