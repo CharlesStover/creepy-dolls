@@ -2,4 +2,4 @@
 A minimalist art project designed to be unsettling.
 
 ## View
-[GitHub Pages](https://gamingmedley.github.io/creepy-dolls/)
+[GitHub Pages](https://charlesstover.github.io/creepy-dolls/)
